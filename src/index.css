@@ -14,14 +14,13 @@ body {
 
 .contenedor {
     background-color: #ffffff;
-    width: 30vw;
-    min-height: 40vw;
+    width: 20vw;
     border-radius: 15px;
-    margin-left: 30%;
-    margin-top: 4%;
+    margin-left: 35%;
     box-shadow: 0px 2px 7px #dcdcdcbd;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .contenedor-text-box {
@@ -31,21 +30,36 @@ body {
 input.text-box {
     display: flex;
     height: 30px;
+    flex: 1;
+    padding: 5px;
+    margin: 20px;
+    border: none;
+    background-color: #efefef;
+    border-radius: 40px;
+    text-align: center;
 }
 
 .result-and-calculator {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 25px;
+        display: flex;
+        margin-top: 25px;
+        flex-direction: column;
 }
 
 p.result {
     display: flex;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #4d4d4d;
+    justify-content: flex-end;
+    margin-right: 30px;
 }
 
 .contenedor-botones {
     display: flex;
     flex-direction: column;
+    margin-bottom: 35px;
 }
 
 .botones-linea-1 {
@@ -71,4 +85,12 @@ p.result {
 .botones-linea-5 {
     display: flex;
     justify-content: space-around;
+}
+
+button {
+    font-size: 25px;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 70px;
+    margin-top: 20px;
 }

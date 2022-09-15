@@ -9,7 +9,6 @@ export const TextBox = (props) => {
       type="text" 
       placeholder="0"
       defaultValue={props.myValue}
-      autoFocus
       ></input>
     </div>
   );

@@ -5,7 +5,7 @@ import { TextBox } from "./textBox";
 
 export const Contenedor = (props) => {
   const [value, setMyValue] = useState("");
-  const [result, setResult] = useState("");
+  const [result, setResult] = useState("0");
 
   const parse = (numero) => {
     return Function(`return (${numero})`)();
